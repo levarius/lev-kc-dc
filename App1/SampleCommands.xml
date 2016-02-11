@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-us" Name="SampleCommandSet_en-us">
+    <AppName>Sample</AppName>
+    <Example>Give me a random number.</Example>
+
+    <Command Name="launch">
+      <Example>Launch app</Example>
+      <ListenFor>Launch [app]</ListenFor>
+      <Feedback>Launching...</Feedback>
+      <Navigate />
+    </Command>
+    
+    <Command Name="randomNumber">
+      <Example>Give me a random number.</Example>
+      <ListenFor>Give [me] a random number.</ListenFor>
+      <Feedback>Calculating a random number...</Feedback>
+      <VoiceCommandService Target="SampleVcs" />
+    </Command>
+  </CommandSet>
+</VoiceCommands>
