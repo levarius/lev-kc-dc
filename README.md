@@ -1,2 +1,2 @@
-# lev-kc-dc
-Demo application for Windows 10 Session at KCDC
+# Lev's KC-DC demo
+Demo application for Windows 10 Session at KC-DC
